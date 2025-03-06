@@ -5,13 +5,35 @@
 <html>
 	<!-- Page metadata and title -->
 	<head>
-		<title>Ola's blog</title>
+		<title>Django Girls Blog</title>
 	</head>
-
 
 	<!-- Main Page Content -->
 	<body>
-		<p>Hi there!</p>
-		<p>It works!</p>
+
+		<!-- Heading elements are used to contain things
+		like headings for a webpage or newspaper. In this case
+		it's used for the header of our blog. -->
+		<header>
+			<h1><a href="/">Django Girls Blog</a></h1>
+		</header>
+
+		<!-- The article tag is used for self contained and independent
+		content, such as a blog post! -->
+       		<article>
+            		<time>published: 14.06.2014, 12:14</time>
+            		<h2><a href="">My first post</a></h2>
+            		<p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. 
+			Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, 
+			tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+        	</article>
+
+        	<article>
+            		<time>published: 14.06.2014, 12:14</time>
+            		<h2><a href="">My second post</a></h2>
+            		<p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. 
+			Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, 
+			tortor mauris condimentum nibh, ut f.</p>
+       		</article>		
 	</body>
 </html>

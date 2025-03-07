@@ -28,7 +28,20 @@
                 	<div class="container">
                      		<h1><a href="/">Django Girls Blog</a></h1>
      			</div>
+
+		:if expand("%") == ""|browse confirm w|else|confirm w|endif
+		{% if user.is_authenticated %}
+
+				<!-- Now we can put an icon here inside the base template
+				as follows. -->
+				<a href="{% url 'post_new' %}" class="top-menu">
+    					{% include './icons/file-earmark-plus.svg' %}
+				</a>
+
+			{% endif %}
+
     		</header>
+
     		<main class="container">
         		<div class="row">
             			<div class="col">
@@ -40,5 +53,6 @@
            			</div>
         		</div>
     		</main>
+
 	</body>
 </html>

@@ -1,8 +1,8 @@
-{% load static %}
-<!-- Load our static files when page loads -->
-
 {% extends 'blog/base.html' %}
 <!-- Connecting these two templates together by extending them -->
+
+{% load static %}
+<!-- Load our static files when page loads -->
 
 <!-- Document Type Declaration -->
 <!DOCTYPE html>

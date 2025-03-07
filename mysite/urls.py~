@@ -28,4 +28,6 @@ urlpatterns = [
     # To keep the urls.py file clean, we will import URLs from our blog
     # application to the main urls.py file.
     path('', include('blog.urls')),
+
+    
 ]

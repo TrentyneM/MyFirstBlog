@@ -1,0 +1,16 @@
+The Disc Golf Leauge project is coming together with a wireframe
+and so far I have the basic framework down for a Django site despite
+having a lot of work to do still. 
+
+I had a lot of problems getting a website to initially work so I started
+a new bare bones template for the website and I've been using forms to keep
+track of user data. Right now I am having a challenge trying to implement
+login forms and am possibly thinking about scaling back features to prevent
+issues and be on time. 
+
+Hello! Your management system sounds very professional and well-planned! I'm
+excited to see what your web app's interface will look like!
+
+Your inventory management system is doing very well! Your application is very
+feature rich and can be deployed for multiple purposes, would love to see it
+when it's finished!

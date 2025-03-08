@@ -1,8 +1,5 @@
-{% extends 'blog/base.html' %}
-<!-- Connecting these two templates together by extending them -->
-
 {% load static %}
-<!-- Load our static files when page loads -->
+{% extends 'blog/base.html' %}
 
 <!-- Document Type Declaration -->
 <!DOCTYPE html>
@@ -17,7 +14,7 @@
 		/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 		<!-- Loading our css file from the static folder -->
-		<link rel="stylesheet" href="{% static 'css/blog.css' %}">
+		<link rel="stylesheet" type="text/css" href="{% static 'css/blog.css' %}">
 
 		<!-- Load an external font for our header -->
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext">

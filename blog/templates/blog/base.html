@@ -15,7 +15,7 @@
 		
 		
 		<!-- Loading our css file from the static folder -->
-		<link rel="stylesheet" href="{% static 'css/blog.css' %}">
+		<link rel="stylesheet" type="text/css" href="{% static 'css/blog.css' %}">
 
 		<!-- Load an external font for our header -->
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext">
@@ -31,6 +31,8 @@
      			</div>
 
 			{% if user.is_authenticated %}
+
+				<a href="{% url 'post_draft_list' %}" class="top-menu">Drafts</span></a>
 
 				<!-- Now we can put an icon here inside the base template
 				as follows. -->
